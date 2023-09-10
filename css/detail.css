@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    
+}
+
+#nav{
+    display: flex;
+    position: relative;
+
+}
+#nav .logo img{
+    width: 300px;
+    margin-left: 60px;
+}
+
+#nav .search {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+#nav .logo b{
+font-size: 50px;
+padding: 10px;}
+
+#nav .icon{
+   padding: 10px;
+   font-size: 20px;
+}
+
+#nav .search {
+    position: absolute;
+    top: 13px;
+    right: 310px;
+    
+}
+
+#nav .search input{
+    border: none;
+    outline: none;
+    
+}
+
+#nav .btn-login{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    /* border-radius: 5px; */
+   border: 0 solid white;
+}
+#nav .btn-login button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+#nav .btn-help{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+#nav .btn-help button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#nav .icon-bag{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 20px;
+
+}
+
+#main .img1 img{
+    width: 434px;
+    height: 651px;
+  
+}
+#main .img1 .subimg{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#main .img1 {
+    position: relative;
+}
+
+
+
+#main .img1 .iconadd{
+    position: absolute;
+    position: absolute;
+    right: 200px;
+    top: 600px;
+    font-size: 30px;
+    background-color: #fff;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    color: #0c0c0c;
+    display: none;
+}
+
+
+.text-center{
+   
+    margin-top: 150px; 
+   
+    
+}
+.container{
+    margin: 250px 0;
+}
+
+
+.container .align-items-start .col-6 img{
+    width: 500px;
+}
+
+.square-contaienr{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.square-contaienr #square1 {
+    width: 20px;
+    height: 20px;
+    background: #010001;
+}
+.square-contaienr #square2 {
+    width: 20px;
+    height: 20px;
+    background: blue;
+}
+.square-contaienr #square3 {
+    width: 20px;
+    height: 20px;
+    background: grey;
+}
+.square-contaienr #square4 {
+    width: 20px;
+    height: 20px;
+    background: #077761;
+}
+.col-3 .size1, .size2, .size3, .size4, .size5{
+    display: flex;
+    justify-content: space-between;
+}
+.col-3 .size2 {
+    margin: 10px 0;
+}
+.col-3 .size4 {
+    margin-top: 10px;
+}
+.col-3 .btn-add button{
+    width: 280px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 15px 0;
+}
+
+.col-3 .size6{
+    margin: 15px 0;
+
+}
+.col-3 {
+    text-align: left;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+}
+
+.footer .list{
+    margin-left: 30px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly
+}
+
+#main .register-main{
+    margin-top: 160px;
+}
+
+
+#main .register-main #password2{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+
+
+
+#main .register-main #name2{
+    /* margin: 40px 0; */
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+}
+#main .register-main #adrees3{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+#main .register-main #adrees4{
+    margin: 2px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+#main .register-main #phone{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+#main .register-main #name{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}

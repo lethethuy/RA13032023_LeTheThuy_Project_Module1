@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    
+}
+
+#nav{
+    display: flex;
+    position: relative;
+
+}
+#nav .logo img{
+    width: 300px;
+    margin-left: 60px;
+}
+
+#nav .search {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+#nav .logo b{
+font-size: 50px;
+padding: 10px;}
+
+#nav .icon{
+   padding: 10px;
+   font-size: 20px;
+}
+
+#nav .search {
+    position: absolute;
+    top: 13px;
+    right: 310px;
+    
+}
+
+#nav .search input{
+    border: none;
+    outline: none;
+    
+}
+
+#nav .btn-login{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    /* border-radius: 5px; */
+   border: 0 solid white;
+}
+#nav .btn-login button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+#nav .btn-help{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+#nav .btn-help button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#nav .icon-bag{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 20px;
+
+}
+
+#main .img1 img{
+    width: 434px;
+    height: 651px;
+  
+}
+#main .img1 .subimg{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#main .img1 {
+    position: relative;
+}
+
+
+
+#main .img1 .iconadd{
+    position: absolute;
+    bottom: 90px;
+    right: 195px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color:rgb(250,250,250,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+   
+}
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* margin: 20px; */
+    margin-left: 80px;
+    margin-top: 150px; 
+    flex-wrap: wrap;
+    
+}
+
+#main .login-main{
+    margin-right: 70px;
+    
+}
+
+
+#main .login-main h3{
+    margin: 40px 0;
+
+}
+
+#main .login-main #email{
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-top: 30px;
+    outline: none;
+
+
+}
+
+
+#main .login-main #password{
+    margin-top: 40px;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+}
+
+
+#main .login-main #name{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+
+
+#main .login-main #adrees1{
+    margin: 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+#main .login-main #adrees2{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+    
+
+#main .login-main .btn-login{
+
+    width: 444px;
+    height: 40px;
+    border: 1px solid black;
+    color: #000;
+    background-color: #fff;
+    
+
+}
+    
+
+
+#main .register-main h3{
+    margin: 65px 0;
+
+}
+
+#main .register-main .btn-register{
+    width: 444px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+}
+
+.footer .list{
+    margin-left: 30px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly
+}
+
+#main .register-main{
+    margin-top: 160px;
+}
+
+
+#main .register-main #password2{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+
+
+
+#main .register-main #name2{
+    /* margin: 40px 0; */
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+}
+#main .register-main #adrees3{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+#main .register-main #adrees4{
+    margin: 2px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+#main .register-main #phone{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}
+#main .register-main #name{
+    margin: 40px 0;
+    width: 444px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+
+
+}

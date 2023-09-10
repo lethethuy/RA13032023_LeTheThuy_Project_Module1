@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    position: relative;
+
+}
+#nav .logo img{
+    width: 300px;
+    margin-left: 60px;
+}
+
+#nav .search {
+    
+    position: absolute;
+    top: 13px;
+    right: 310px;
+    
+}
+
+#nav .logo b{
+font-size: 50px;
+padding: 10px;}
+
+#nav .icon{
+   padding: 10px;
+   font-size: 20px;
+}
+
+
+#nav .search input{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    
+}
+
+#nav .btn-login{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    /* border-radius: 5px; */
+   border: 0 solid white;
+}
+#nav .btn-login button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+#nav .btn-help{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+#nav .btn-help button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#nav .icon-bag{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 20px;
+
+}
+
+
+#main{
+    width: 100%;
+    justify-content: center;
+    /* margin: 20px; */
+    margin-left: 20px;
+    margin-top: 150px;
+    margin-bottom: 400px;
+
+
+    
+}
+
+#main .product-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#main .menu{
+    display: flex;
+    margin-left: 90px;
+    gap: 20px;
+    margin-bottom: 20px;
+} 
+
+
+#main .product-img img{
+    width: 350px;
+}
+
+#main .product-detail{
+    display: flex;
+
+    
+}
+
+#main .product-detail button{
+    border: none;
+    padding: 10px;
+    border-radius: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main .product-detail div a{
+   padding-left: 125px;
+   text-decoration: none;
+   color: #000;    
+}
+
+#main .product-detail div{
+   margin-top: 5px;   
+ }
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.footer .list1{
+
+}
+
+.footer .list{
+    margin-left: 30px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+.footer33{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer3{
+    display: flex;
+padding: 20px;
+background-color: #fff;
+   float: right;
+
+
+}
+
+.footer3 .payment{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.footer3 .payment p{
+    font-size: 10px;
+    
+}
+.footer3 .payment .btn-payment button{
+    width: 255px;
+    height: 32px;
+    color: #fff;
+    background-color: #000;
+    
+}

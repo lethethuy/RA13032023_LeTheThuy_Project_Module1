@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+#nav{
+    display: flex;
+    position: relative;
+
+}
+#nav .logo img{
+    width: 300px;
+    margin-left: 60px;
+}
+
+#nav .search {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+#nav .logo b{
+font-size: 50px;
+padding: 10px;}
+
+#nav .icon{
+   padding: 10px;
+   font-size: 20px;
+}
+
+#nav .search {
+    position: absolute;
+    top: 13px;
+    right: 310px;
+    
+}
+
+#nav .search input{
+    border: none;
+    outline: none;
+    
+}
+
+#nav .btn-login{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    /* border-radius: 5px; */
+   border: 0 solid white;
+}
+#nav .btn-login button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+#nav .btn-help{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+#nav .btn-help button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#nav .icon-bag{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 20px;
+
+}
+
+
+#main{
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#main .thankyou{
+    margin: 80px 0;
+}
+
+#main .btn-home, .btn-purchaseorder {
+    width: 204px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.footer .list{
+    margin-left: 30px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+

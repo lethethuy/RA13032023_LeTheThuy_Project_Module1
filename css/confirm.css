@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+#nav{
+    display: flex;
+    position: relative;
+}
+#nav .logo img{
+    width: 300px;
+    margin-left: 60px;
+}
+
+#nav .search {
+    
+    position: absolute;
+    top: 13px;
+    right: 310px;
+    
+}
+
+#nav .logo b{
+font-size: 50px;
+padding: 10px;}
+
+#nav .icon{
+   padding: 10px;
+   font-size: 20px;
+}
+
+
+#nav .search input{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    
+}
+
+#nav .btn-login{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    /* border-radius: 5px; */
+   border: 0 solid white;
+}
+#nav .btn-login button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+#nav .btn-help{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+#nav .btn-help button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#nav .icon-bag{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 20px;
+
+}
+
+
+#main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+    margin-left: 20px;
+    margin-top: 150px;
+    margin-bottom: 400px;
+    position: relative;
+
+    
+}
+
+#main .login-main{
+    margin-right: 250px;
+    
+}
+
+
+#main .login-main h3{
+    margin: 40px 0;
+
+}
+
+#main .login-main #email{
+    width: 444px;
+    outline: none;
+
+
+}
+
+
+
+#main .login-main #password{
+    margin: 40px 0;
+    width: 444px;
+    outline: none;
+
+
+}
+    
+
+#main .login-main .btn-login{
+
+    width: 444px;
+    height: 40px;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #000;
+    
+
+}
+    
+
+
+#imgContainer .register-main h3{
+    margin: 40px 0;
+
+}
+
+
+.imgContainer{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 220px;
+    right: 50px;
+    
+}
+
+
+.imgContainer img{
+    width: 200px;
+
+}
+
+
+#main .register-main .btn-register{
+    width: 444px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#main .login-main #email{
+    border: none;
+    border-bottom: 1px solid grey;
+
+}
+
+#main .login-main #password{
+    border: none;
+    border-bottom: 1px solid grey;
+
+}
+
+#main .login-main .infor .addrees{
+    margin: 20px 0;
+
+}
+#main .login-main .freeship{
+    margin: 20px 0;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+
+
+.footer .list{
+    margin-left: 30px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+.footer33{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer3{
+    display: flex;
+justify-content: space-between;
+padding: 20px;
+background-color: #fff;
+
+
+}
+
+.footer3 .payment{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.footer3 .payment p{
+    font-size: 10px;
+    
+}
+.footer3 .payment .btn-payment button{
+    width: 255px;
+    height: 32px;
+    color: #fff;
+    background-color: #000;
+    
+}

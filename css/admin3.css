@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+}
+
+#nav{
+    display: flex;
+    position: relative;
+
+}
+
+#nav .logo img{
+    width: 300px;
+    margin-left: 60px;
+}
+
+#nav .icon{
+   padding: 10px;
+   font-size: 20px;
+}
+
+#nav .search {
+    position: absolute;
+    top: 13px;
+    right: 310px;
+    
+}
+
+#nav .search input{
+    border: none;
+    outline: none;
+    
+}
+
+#nav .btn-login{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    /* border-radius: 5px; */
+   border: 0 solid white;
+}
+#nav .btn-login button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+#nav .btn-help{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+#nav .btn-help button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#nav .icon-bag{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 25px;
+
+}
+
+#nav .admin b{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+
+#container .sildebar{
+    margin-top: 150px;
+    margin-top: 150px;
+    width: 250px;
+    background-color: rgb(10, 1, 1);
+    height: 800px;
+    
+
+} 
+.main{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 80px;
+}  
+
+#container .sildebar a{
+        text-decoration: none;
+        color: #fff;
+}
+
+.main .tbn{
+    caption-side: bottom;
+    margin-top: 150px;
+    border-collapse: collapse;
+    gap: 30px;
+    text-align: center;
+
+}
+.main .tbn, tr , th, td{
+    border: 1px solid #ccc;
+    padding: 20px
+    
+}
+
+#container .sildebar{
+    padding : 10px;
+}
+
+.main .tbn tr button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
